@@ -6,6 +6,7 @@ on:
       - main # 변경 사항을 감지할 브랜치 (예: master 또는 main)
     paths:
       - 'Team of service.md' # 약관 파일 경로를 여기에 정확히 입력 (예: 'docs/TOS.md')
+      - 'PrivacyPolicy.md'
 
 jobs:
   notify:
