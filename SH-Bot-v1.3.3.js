@@ -347,7 +347,7 @@ async function saveGuildCaptchaSetting(guildId, settings) {
   }
   async function getnclient() {
 clients = [
-  {"id":"ujiyEbF9Y3uMLW1gr2aE","pw":"oIsLkS1E1E"},
+  {"id":"","pw":""},
   {"id":NAVER_CLIENT_ID,"pw":NAVER_CLIENT_SECRET}
 ]
 return await clients[Math.floor(Math.random() * clients.length)];
